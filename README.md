@@ -1,35 +1,3 @@
 # Task Board
 
-React based application that uses Firebase to store data, and authenticate users with Google for a private task board.
-
-![Task Board Desktop and Mobile Device Preview][mockup]
-
-Need to track the progression of tasks?
-
-Task Board enables users to add and track the progressions of tasks to increase productivity! **Use your own board by signing in with Google!**
-
-React | Firebase | Google Authentication | JavaScript | HTML | CSS
-
-View live at [afacey.github.io/taskboard][live]
-
-[live]: https://afacey.github.io/taskboard "Task Board by Andre Facey"
-[mockup]: https://andrefacey.com/assets/mockups/taskboard-mockup.png "Task Board Desktop and Mobile Device Preview"
-
-## Requirements
-
-* Uses React, and no jQuery
-* Uses modular components
-* Uses axios and/or Firebase
-* React 'knows' about all DOM changes
-* this.state is never directly changed because .setState() is always used to alter state
-* App is dynamic based on user interaction (e.g. drop-down menu, search field)
-* It is clear to the user what the app does
-* App and interactions are accessible
-* Errors are handled effectively
-
-## Known Issues
-
-* Some versions of Safari and Firefox do not handle the onBlur event of the task form as designed, resulting in users not being able to add, update, and delete tasks
-  * **Current workarounds:**
-    * Use Google Chrome
-    * Use the `tab` and `return` keys to interact with the form
+https://codesandbox.io/p/github/av84002499/Task-Board/main?layout=%257B%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522rootPanelGroup%2522%253A%257B%2522direction%2522%253A%2522horizontal%2522%252C%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522id%2522%253A%2522ROOT_LAYOUT%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522direction%2522%253A%2522vertical%2522%252C%2522id%2522%253A%2522EDITOR%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522panelType%2522%253A%2522TABS%2522%252C%2522id%2522%253A%2522clhpp3gnh000a356k1rtlllo7%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%252C%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522direction%2522%253A%2522vertical%2522%252C%2522id%2522%253A%2522DEVTOOLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522panelType%2522%253A%2522TABS%2522%252C%2522id%2522%253A%2522clhpp3gnh000c356k51eiiqda%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%255D%252C%2522sizes%2522%253A%255B50%252C50%255D%257D%252C%2522tabbedPanels%2522%253A%257B%2522clhpp3gnh000a356k1rtlllo7%2522%253A%257B%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522clhpp3gk60009356knsji7q6j%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522FILE%2522%252C%2522filepath%2522%253A%2522%252FREADME.md%2522%252C%2522view%2522%253A%2522code%2522%252C%2522state%2522%253A%2522IDLE%2522%257D%255D%252C%2522id%2522%253A%2522clhpp3gnh000a356k1rtlllo7%2522%252C%2522activeTabId%2522%253A%2522clhpp3gk60009356knsji7q6j%2522%257D%252C%2522clhpp3gnh000c356k51eiiqda%2522%253A%257B%2522id%2522%253A%2522clhpp3gnh000c356k51eiiqda%2522%252C%2522activeTabId%2522%253A%2522clhpp6uiw00aa356ke78gfk40%2522%252C%2522tabs%2522%253A%255B%257B%2522type%2522%253A%2522TASK_LOG%2522%252C%2522taskId%2522%253A%2522start%2522%252C%2522id%2522%253A%2522clhpp6rqo005p356kumksa5wn%2522%252C%2522mode%2522%253A%2522permanent%2522%257D%252C%257B%2522type%2522%253A%2522TASK_PORT%2522%252C%2522taskId%2522%253A%2522start%2522%252C%2522port%2522%253A3000%252C%2522id%2522%253A%2522clhpp6uiw00aa356ke78gfk40%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522path%2522%253A%2522%252F%2522%252C%2522actionBarPosition%2522%253A%2522docked%2522%257D%255D%257D%257D%252C%2522showDevtools%2522%253Atrue%252C%2522showSidebar%2522%253Atrue%252C%2522sidebarPanelSize%2522%253A15%257D
