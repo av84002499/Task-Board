@@ -10,8 +10,8 @@ const Header: React.FC = () => {
     <header>
       <div className="wrapper displayContainer">
         <div className="header__text">
-          <h1>Task Board</h1>
-          <p>Add and track tasks to increase productivity!</p>
+          <h1>Welcome User</h1>
+          
         </div>
         <div className="header__buttons">
             <h2 onClick={() => setOpenSettingsMenu(openSettingsMenu => !openSettingsMenu)}>
